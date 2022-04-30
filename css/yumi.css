@@ -1,1 +1,24 @@
-/* No CSS */
+.title {
+  padding-top: 10%;
+}
+
+.main .mainbg {
+  background-image: url(/img/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-bottom: 125%;
+  background-size: 100% auto;
+}
+
+.main .contentImgBox {
+  margin-top: 17%;
+  padding: 15%;
+}
+
+@media (max-width: 425px) {
+  .main .contentImgBox {
+    margin-top: 20%;
+    padding: 0;
+  }
+}
