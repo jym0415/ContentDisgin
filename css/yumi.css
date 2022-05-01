@@ -22,3 +22,18 @@
     padding: 0;
   }
 }
+
+.main .contentImgBox .conImg1 .hj2 {
+  left: 0;
+  top: -25%;
+  display: none;
+}
+
+.main .contentImgBox .hjImg {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.main .contentImgBox .hjImg:hover .hj2 {
+  display: block;
+}

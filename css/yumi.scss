@@ -21,5 +21,21 @@
             padding: 0;
         }
     
+        .conImg1{
+            .hj2{
+                left: 0;
+                top: -25%;
+                display: none;
+            }
+            } 
+            .hjImg{
+                border-radius: 50%;
+                overflow: hidden;
+            } 
+            .hjImg:hover{
+                .hj2{display: block;}
+            } 
+        }
+        
     }
-}
+
